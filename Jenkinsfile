@@ -28,7 +28,7 @@ if ( env.BRANCH_NAME == "main" ) {
 else if ( env.BRANCH_NAME == "qa") {
     region = "us-east-2"
 }
-else if ( env.BRANCH_NAME == "qa") {
+else if ( env.BRANCH_NAME == "dev") {
     region = "us-east-2"
 
 }
